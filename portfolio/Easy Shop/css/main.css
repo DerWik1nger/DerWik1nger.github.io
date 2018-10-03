@@ -1,0 +1,10 @@
+
+.carousel-control-next-icon {
+    background-image: url(../img/right-arrow.png);
+}
+.carousel-control-prev-icon {
+    background-image: url(../img/left-arrow.png);
+}
+img.img-thumbnail:hover{
+  border-color: #337ab3;
+}
