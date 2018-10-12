@@ -6,19 +6,20 @@
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="fonts.css">
 		<link rel="stylesheet" href="responsive.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	</head>
 	<body>
 <header>
 	<div class="container">
-		<div class = "logo"><img src="images/logo.png" alt="Text-Logo"></div>
+		<div class = "logo"><img class="animated fadeInUp" src="images/logo.png" alt="Text-Logo"></div>
 	</div>
 </header>
 <main>
 	<section class="banner">
 		<div class="container">
 			<div class="banner_text">
-				<h1>We are <span>almost</span> there</h1>
-					<div class="tick">
+				<h1 class="animated zoomInUp">We are <span>almost</span> there</h1>
+					<div class="tick animated pulse infinite">
 						<samp id="hour"></samp>
 						<samp id="min"></samp>
 						<samp id="sec"></samp>
@@ -31,17 +32,17 @@
 		<div class="container">
 			<div class="definition_item">
 				<h3>INNOVATIVE</h3>
-				<i class="icon1"></i>
+				<i class="icon1 wow bounce"></i>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni. Nihil qui corporis commodi, laborum vitae provident, soluta amet labore sequi doloremque, sit consequuntur, velit tempore aut quis perspiciatis quos.</p>
 			</div>
 			<div class="definition_item">
 				<h3>UNLIMITED</h3>
-				<i class="icon2"></i>
+				<i class="icon2 wow bounce"></i>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni. Nihil qui corporis commodi, laborum vitae provident, soluta amet labore sequi doloremque, sit consequuntur, velit tempore aut quis perspiciatis quos.</p>
 			</div>
 			<div class="definition_item">
 				<h3>TRENDY</h3>
-				<i class="icon3"></i>
+				<i class="icon3 wow bounce"></i>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni. Nihil qui corporis commodi, laborum vitae provident, soluta amet labore sequi doloremque, sit consequuntur, velit tempore aut quis perspiciatis quos.</p>
 			</div>
 			<div class="clear"></div>
@@ -60,8 +61,12 @@
 		</div>
 	</section>
 </main>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
 	</body>
-	<script src="js/main.js"></script>
 <footer>
 	<span class="copy">© ALL RIGHTS RESERVED. MADE BY DerWik1nger</span>
 </footer>

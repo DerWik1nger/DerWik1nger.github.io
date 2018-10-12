@@ -1,0 +1,57 @@
+*{
+  font-family: 'Krub', sans-serif;
+}
+header{
+  background: url("../img/header.jpg") no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+
+}
+.quote{
+  background: url("../img/header.jpg") no-repeat;
+  background-attachment: fixed;
+}
+footer{
+  background-color: black;
+  width: 100%;
+  height: 300px;
+}
+.display-3{
+  padding: 150px 0;
+  color: white;
+}
+ header p{
+  color: white;
+}
+i{
+  color: silver;
+}
+h3, h2, p{
+  color: gray;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: red;
+}
+.colums{
+  padding: 70px 0;
+}
+.images{
+  background-color: white;
+}
+.quote{
+  height: 300px;
+}
+.quote p{
+  color: silver;
+  padding-top: 130px;
+}
+a.nav-item.nav-link{
+  border-left: 1px solid rgba(0,0,0, 0.1);
+}
+.navbar-nav a:first-child{
+  border: none;
+}
